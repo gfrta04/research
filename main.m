@@ -78,6 +78,6 @@ figure
 loglog(M,E)
 xlabel('euの標準偏差')
 ylabel('伝達関数の差のH2ノルム')
-title(strcat('euの標準偏差と相対誤差 case',type1,type2))
-saveas(gcf,strcat('euの標準偏差と相対誤差 case',type1,type2,'.png'))
+title(strcat('euの標準偏差と相対誤差_case',type1,type2))
+saveas(gcf,strcat('euの標準偏差と相対誤差_case',type1,type2,'.png'))
 %--------------------------------%
